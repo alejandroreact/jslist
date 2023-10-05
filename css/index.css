@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background-color: skyblue;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+.App-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 800px;
+  max-width : 90vw;
+  max-height: 90vh;
+  margin: auto;
+  padding: 3%;
+  border-radius: 10px;
+  font-size: calc(10px + 1vmin);
+  color: black;
+  overflow-y: auto;
+}
+
+.App-header {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.App-body {
+  align-items: center;
+  justify-content: center;
+}
+
+.App-body-list {
+  background-color: lightgray;
+  border: 1px solid gray;
+  list-style-type: none;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 2%;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.App-body-list-item {
+  padding: 1%;
+}
+
+.App-body-list-item-selected {
+  background-color: blue;
+  color: white;
+}
+
+.App-body-list-input {
+  border: 1px dashed blue;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: blue;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.App-body-buttons {
+  display:flex;
+  gap: 10px;
+}
+.App-body-button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 50ch;
+  font-size: calc(10px + 1vmin);
+  color: blue;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App-body-button-undo {
+  font-size: calc(10px + 3vmin);
+}
+.App-body-button-last {
+  margin-left: auto;
+  background-color: blue;
+  color: white;
+  width: 7rem;
+}
