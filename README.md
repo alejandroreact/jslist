@@ -8,9 +8,8 @@ Html, Css, Javascript List Technical Proof
 	Se requiere maquetar (html y estilos) y desarrollar (javascript) una
 	aplicación para gestionar una lista de cadenas de texto.
 
-	Puedes encontrar el diseño en el siguiente enlace:
-		https://xd.adobe.com/view/ea696dd0-8781-4460-8720-36deb2d19b2a-bf3a/ 
-
+	Puedes encontrar el diseño en el fichero: 
+ 		list.jpg
 
 ### Especificación Funcional
 
